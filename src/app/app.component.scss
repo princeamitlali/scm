@@ -1,0 +1,16 @@
+ul{
+    padding: 10PX;
+}
+
+ header{
+color: white;
+}
+
+.accordion-body, .accordion-collapse, .accordion-button, .accordion-header, .accordion-item, .accordion{
+    padding: 5px;
+    background-color: #222629;
+    color: white;
+    border-color: #222629 !important;
+    button:focus { outline: none; }
+}
+

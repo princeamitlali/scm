@@ -1,0 +1,33 @@
+ul{
+    padding: 10PX;
+}
+
+ header{
+color: white;
+}
+
+.navbar_link-heading{
+color: #82c232;
+}
+
+.navbar_link-description{
+color: #54722e;
+}
+.navbar_dropdown-link-container .dropdown-menu{
+    border-radius: 100px;
+}
+
+a {
+    text-decoration: none;
+  }
+
+  .navbar{
+    z-index:2000 !important; //higher then fixed header z-index so it comes above
+ }
+
+ @media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
